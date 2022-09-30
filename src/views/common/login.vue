@@ -6,7 +6,7 @@
         <h3>USER LOGIN OF SHENGDU NETWORK SYSTEM</h3>
       </div>
       <div>
-        <h1 style="color: #fff"> 用户登录</h1>
+        <h1 style="color: #fff">用户登录</h1>
         <el-form
           status-icon
           :rules="rules"
