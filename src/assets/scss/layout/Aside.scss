@@ -1,0 +1,16 @@
+#Aside {
+    background-color: #1d1d1d !important;
+    position: fixed;
+    top: 40px;
+    left: 0;
+    bottom: 0;
+    z-index: 1020;
+    width: 167px;
+    overflow: hidden;
+
+    .scroll {
+        height: 100%;
+        overflow-y: scroll;
+        width: 190px;
+    }
+}

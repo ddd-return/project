@@ -1,0 +1,10 @@
+
+// 遮罩 Mask
+@mixin Mask($MaskColor) {
+    background-color: rgba(38, 50, 56, $MaskColor);
+}
+
+// padding
+@mixin padding($top:0,$right:0,$button:0,$left:0 ) {
+    padding: $top $right $button $left;
+}

@@ -1,0 +1,28 @@
+#Navbar {
+   height: 40px;
+   background-color: #263238;
+   padding-left: 160px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   right: 0px;
+   left: 0px;
+   z-index: 10;
+   min-width: 1524px;
+   
+   .el-menu {
+      border: none;
+      background: transparent;
+   }
+
+   .el-menu-item {
+      height: 40px;
+      line-height: 40px;
+   }
+
+   .el-menu-item:focus,
+   .el-menu-item:hover {
+      outline: 0;
+      background-color: #202b30;
+   }
+}
